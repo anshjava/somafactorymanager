@@ -8,9 +8,12 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         LOGGER.info("Начало работы программы!!!");
-        Manager manager = new Manager("Andrey");
         LOGGER.info("----------------------------\n");
-        manager.loadMachinesToMachineList(Utils.getRandomMachinesArray(5));
+        Manager manager = Utils.unmarshallManager();
+        LOGGER.info("----------------------------\n");
+        for (Machine machine : manager.getMachineList()) {
+            LOGGER.info("Восстановлен станок: " + machine);
+        }
         LOGGER.info("----------------------------\n");
         manager.loadOrdersToOrderSet(Utils.getRandomOrdersArray(5));
         LOGGER.info("----------------------------\n");
@@ -18,26 +21,26 @@ public class Main {
         LOGGER.info("----------------------------\n");
         manager.distributeRollsToMachines();
         LOGGER.info("----------------------------\n");
-
         for (Machine machine : manager.getMachineList()) {
             machine.produceLoop();
         }
-
+        LOGGER.info("----------------------------\n");
         for (Machine machine : manager.getMachineList()) {
             LOGGER.info("" + machine);
         }
-
         LOGGER.info("----------------------------\n");
-
+        float totalWeight = 0.0f;
+        int totalRolls = 0;
         for (Order order : manager.getOrderSet()) {
             LOGGER.info("" + order);
+            for (Roll roll : order.getRollList()) {
+                totalRolls += roll.getCount();
+                totalWeight += roll.getWeight()*roll.getCount();
+            }
         }
-
         LOGGER.info("----------------------------\n");
-
-        LOGGER.info("Нераспределенных роликов в очереди у менеджера: " + manager.getRollQueue().size());
-
-
-
+        LOGGER.info("Total Count of Rolls produced: " + totalRolls + "\n");
+        LOGGER.info("Total Weight of Rolls produced: " + totalWeight + "\n");
+        LOGGER.info("----------------------------\n");
     }
 }

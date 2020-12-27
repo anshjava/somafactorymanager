@@ -4,7 +4,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.kamuzta.somafactorymanager.enums.*;
 
-import java.util.Arrays;
+import javax.xml.bind.*;
+import java.io.*;
+import java.util.*;
 
 public class Utils {
     public static final Logger LOGGER = LoggerFactory.getLogger(Utils.class);
@@ -138,5 +140,65 @@ public class Utils {
         return newMachine;
     }
 
+    public static void marshallManager(Manager manager) {
+        String fileName = Utils.getDirectoryPath() + manager.getName() + "_manager.xml";
+        StringWriter writer = new StringWriter();
+        try {
+            JAXBContext context = JAXBContext.newInstance(Machine.class, Manager.class);
+            Marshaller marshaller = context.createMarshaller();
+            marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+            marshaller.marshal(manager, writer);
+        } catch (PropertyException e) {
+            LOGGER.error(e.getMessage());
+            e.printStackTrace();
+        } catch (JAXBException e) {
+            LOGGER.error(e.getMessage());
+            e.printStackTrace();
+        }
+
+        try {
+            FileWriter fileWriter = new FileWriter(fileName);
+            fileWriter.write(writer.toString());
+            fileWriter.close();
+        } catch (IOException e) {
+            LOGGER.error(e.getMessage());
+            e.printStackTrace();
+        }
+        LOGGER.info("Менеджер " + manager.getName() + " успешно записан в xml-файл " + fileName);
+
+    }
+
+    public static Manager unmarshallManager() {
+        String fileName = Utils.getDirectoryPath() + "manager.xml";
+        Manager manager = null;
+        try {
+            JAXBContext context = JAXBContext.newInstance(Machine.class, Manager.class);
+            Unmarshaller unmarshaller = context.createUnmarshaller();
+            manager = (Manager) unmarshaller.unmarshal(new File(fileName));
+        } catch (PropertyException e) {
+            LOGGER.error(e.getMessage());
+            e.printStackTrace();
+        } catch (JAXBException e) {
+            LOGGER.error(e.getMessage());
+            e.printStackTrace();
+        }
+
+        LOGGER.info("Менеджер " + manager.getName() + " успешно восстановлен из xml-файла " + fileName);
+        manager.linkManagerWithMachines();
+        return manager;
+    }
+
+    public static String getDirectoryPath() {
+        /*String path = Utils.class.getProtectionDomain().getCodeSource().getLocation().getPath() + Utils.class.getPackage().getName().replaceAll("[.]", "/");
+        //если в конце переданного пути отсутствует слэш - добавляем его
+        if (!path.endsWith("\\") && !path.endsWith("/"))
+            path = path + "/";
+        return path;*/
+        return "./"; //для Windows
+    }
+
+    public void getStatictics(Manager manager) { //TODO реализовать отчетность
+
+    }
 
 }

@@ -3,15 +3,25 @@ package ru.kamuzta.somafactorymanager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.kamuzta.somafactorymanager.enums.*;
+
+import javax.xml.bind.annotation.*;
+import java.io.Serializable;
 import java.util.*;
 
-public class Manager {
+@XmlType(propOrder = { "name", "state", "machineList" } )
+@XmlRootElement(name = "manager")
+public class Manager  implements Serializable, Comparable {
     public static final Logger LOGGER = LoggerFactory.getLogger(Manager.class);
     private String name;
     private State state;
     private List<Machine> machineList; // Хранит станки в порядке убывания FreeCapacity (обновление порядка вручную)
     private SortedSet<Order> orderSet; //Хранит заказы в порядке от старого к новому
     private Queue<Roll> rollQueue; //Хранит ролики в очереди в порядке добавления
+
+    public Manager () {
+        this.setOrderSet(new TreeSet<>());
+        this.setRollQueue(new LinkedList<>());
+    }
 
     public Manager(String name) {
         this.setMachineList(new ArrayList<>());
@@ -22,17 +32,26 @@ public class Manager {
         LOGGER.info("МЕНЕДЖЕР СОЗДАН: " + this.getName());
     }
 
+    public void linkManagerWithMachines() {
+        for(Machine machine : this.getMachineList()) {
+            machine.setManager(this);
+        }
+    }
+
+
     public String getName() {
         return name;
     }
-    private void setName(String name) {
+    @XmlAttribute(name = "name")
+    public void setName(String name) {
         this.name = name;
     }
 
     public State getState() {
         return state;
     }
-    private void setState(State state) {
+    @XmlAttribute(name = "state")
+    public void setState(State state) {
         this.state = state;
     }
     private void changeState(State newState) {
@@ -60,7 +79,13 @@ public class Manager {
     public List<Machine> getMachineList() {
         return machineList;
     }
-    private void setMachineList(List<Machine> machineList) {
+    @XmlElementWrapper(name = "machineList")
+    @XmlElements ({@XmlElement (name = "machine", type = Machine.class)})
+    public void setMachineList(List<Machine> machineList) {
+        for (Machine machine : machineList) {
+            machine.setManager(this);
+        }
+        Collections.sort(machineList);
         this.machineList = machineList;
     }
     public void loadMachinesToMachineList(Machine...machines) {
@@ -74,6 +99,7 @@ public class Manager {
     public SortedSet<Order> getOrderSet() {
         return orderSet;
     }
+    @XmlTransient
     public void setOrderSet(SortedSet<Order> orderSet) {
         this.orderSet = orderSet;
     }
@@ -88,6 +114,7 @@ public class Manager {
     public Queue<Roll> getRollQueue() {
         return rollQueue;
     }
+    @XmlTransient
     public void setRollQueue(Queue<Roll> rollQueue) {
         this.rollQueue = rollQueue;
     }
@@ -120,4 +147,8 @@ public class Manager {
     }
 
 
+    @Override //TODO реализовать определение менее загруженного цеха в %
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

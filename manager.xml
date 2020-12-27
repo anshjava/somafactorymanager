@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manager name="Andrey" state="OFF">
+    <machineList>
+        <machine id="1" state="OFF" width="57.0" paper="NTC44" fullCapacity="15000"/>
+        <machine id="2" state="OFF" width="57.0" paper="NTC44" fullCapacity="15000"/>
+        <machine id="3" state="OFF" width="57.0" paper="NTC44" fullCapacity="15000"/>
+        <machine id="4" state="OFF" width="57.0" paper="NTC48" fullCapacity="15000"/>
+        <machine id="5" state="OFF" width="80.0" paper="NTC44" fullCapacity="12000"/>
+        <machine id="6" state="OFF" width="80.0" paper="NTC44" fullCapacity="12000"/>
+        <machine id="7" state="OFF" width="80.0" paper="NTC44" fullCapacity="12000"/>
+        <machine id="8" state="OFF" width="80.0" paper="NTC48" fullCapacity="12000"/>
+        <machine id="9" state="OFF" width="80.0" paper="NTC55" fullCapacity="12000"/>
+        <machine id="10" state="OFF" width="80.0" paper="NTC58" fullCapacity="12000"/>
+    </machineList>
+</manager>

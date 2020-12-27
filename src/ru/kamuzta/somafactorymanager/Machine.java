@@ -4,12 +4,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import ru.kamuzta.somafactorymanager.enums.*;
 
+import javax.xml.bind.annotation.*;
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Objects;
 import java.util.Queue;
 
+@XmlType(propOrder = { "id", "state", "width", "paper", "fullCapacity" })
+@XmlRootElement(name = "machine")
 public class Machine implements Serializable, Comparable {
     public static final Logger LOGGER = LoggerFactory.getLogger(Machine.class);
     private Manager manager;
@@ -19,6 +22,10 @@ public class Machine implements Serializable, Comparable {
     private State state;
     private int fullCapacity;
     private Queue<Roll> rollQueue;
+
+    public Machine() {
+        this.setRollQueue(new LinkedList<>());
+    }
 
     public Machine(int id, float width, Paper paper, int fullCapacity) {
         this.setRollQueue(new LinkedList<>());
@@ -33,6 +40,7 @@ public class Machine implements Serializable, Comparable {
     public Manager getManager() {
         return manager;
     }
+    @XmlTransient
     public void setManager(Manager manager) {
         this.manager = manager;
     }
@@ -40,6 +48,7 @@ public class Machine implements Serializable, Comparable {
     public int getId() {
         return id;
     }
+    @XmlAttribute(name = "id")
     public void setId(int id) {
         this.id = id;
     }
@@ -47,6 +56,7 @@ public class Machine implements Serializable, Comparable {
     public float getWidth() {
         return width;
     }
+    @XmlAttribute(name = "width")
     public void setWidth(float width) {
         this.width = width;
     }
@@ -54,6 +64,7 @@ public class Machine implements Serializable, Comparable {
     public Paper getPaper() {
         return paper;
     }
+    @XmlAttribute(name = "paper")
     public void setPaper(Paper paper) {
         this.paper = paper;
     }
@@ -61,6 +72,7 @@ public class Machine implements Serializable, Comparable {
     public int getFullCapacity() {
         return fullCapacity;
     }
+    @XmlAttribute(name = "fullCapacity")
     public void setFullCapacity(int fullCapacity) {
         this.fullCapacity = fullCapacity;
     }
@@ -86,6 +98,7 @@ public class Machine implements Serializable, Comparable {
     public State getState() {
         return state;
     }
+    @XmlAttribute(name = "state")
     private void setState(State newState) {
         this.state = newState;
     }
@@ -114,6 +127,7 @@ public class Machine implements Serializable, Comparable {
     public Queue<Roll> getRollQueue() {
         return rollQueue;
     }
+    @XmlTransient
     private void setRollQueue(Queue<Roll> rollQueue) {
         this.rollQueue = rollQueue;
     }

@@ -1,0 +1,328 @@
+2020-12-28 00:45:12.554 [main] INFO  ru.kamuzta.somafactorymanager.Main - Начало работы программы!!!
+2020-12-28 00:45:12.565 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
+2020-12-28 00:45:13.077 [main] INFO  ru.kamuzta.somafactorymanager.Utils - Менеджер Andrey успешно восстановлен из xml-файла ./manager.xml
+2020-12-28 00:45:13.078 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
+2020-12-28 00:45:13.083 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #1 OFF Width:57 Paper: NTC44 Capacity(Free/InQueue/Full): 15000 / 0 / 15000
+2020-12-28 00:45:13.084 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #2 OFF Width:57 Paper: NTC44 Capacity(Free/InQueue/Full): 15000 / 0 / 15000
+2020-12-28 00:45:13.086 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #3 OFF Width:57 Paper: NTC44 Capacity(Free/InQueue/Full): 15000 / 0 / 15000
+2020-12-28 00:45:13.088 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #4 OFF Width:57 Paper: NTC48 Capacity(Free/InQueue/Full): 15000 / 0 / 15000
+2020-12-28 00:45:13.089 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #5 OFF Width:80 Paper: NTC44 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:45:13.091 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #6 OFF Width:80 Paper: NTC44 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:45:13.092 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #7 OFF Width:80 Paper: NTC44 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:45:13.095 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #8 OFF Width:80 Paper: NTC48 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:45:13.096 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #9 OFF Width:80 Paper: NTC55 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:45:13.097 [main] INFO  ru.kamuzta.somafactorymanager.Main - Восстановлен станок: Machine #10 OFF Width:80 Paper: NTC58 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:45:13.098 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
+2020-12-28 00:45:13.098 [main] INFO  ru.kamuzta.somafactorymanager.Utils - Создание массива случайных 5 заказов...
+2020-12-28 00:45:13.103 [main] INFO  ru.kamuzta.somafactorymanager.Utils - Создание массива случайных 9 роликов...
+2020-12-28 00:45:13.116 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 144,7mm x 26 48g/m2 218pcs 256,3kg
+2020-12-28 00:45:13.117 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 219,9mm x 26 48g/m2 4457pcs 12323,4kg
+2020-12-28 00:45:13.119 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 140,2M x 18 44g/m2 2816pcs 1389,8kg
+2020-12-28 00:45:13.123 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 187,7mm x 18 44g/m2 4349pcs 8562,4kg
+2020-12-28 00:45:13.126 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 57 x 37,9M x 12 44g/m2 9087pcs 863,6kg
+2020-12-28 00:45:13.127 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 204,6mm x 18 55g/m2 3653pcs 8886,8kg
+2020-12-28 00:45:13.130 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 66,1mm x 26 48g/m2 7343pcs 1574,9kg
+2020-12-28 00:45:13.132 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 57 x 42,2mm x 12 44g/m2 9433pcs 620,4kg
+2020-12-28 00:45:13.133 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 57 x 61,4mm x 12 48g/m2 4120pcs 618,3kg
+2020-12-28 00:45:13.478 [main] INFO  ru.kamuzta.somafactorymanager.Order - ЗАКАЗ СОЗДАН: Order #9252 NEW 28.12.2021 00:45:13 Client: Komus Rolls:45476pcs Weight:35095,8kg
+2020-12-28 00:45:13.478 [main] INFO  ru.kamuzta.somafactorymanager.Utils - Создание массива случайных 6 роликов...
+2020-12-28 00:45:13.480 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 127,4M x 18 48g/m2 5986pcs 2928,4kg
+2020-12-28 00:45:13.481 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 38,2mm x 26 55g/m2 3446pcs 158,8kg
+2020-12-28 00:45:13.483 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 117,3M x 18 55g/m2 7588pcs 3916,5kg
+2020-12-28 00:45:13.484 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 63,1mm x 18 48g/m2 3616pcs 767,5kg
+2020-12-28 00:45:13.485 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 188,6M x 26 48g/m2 9963pcs 7213,9kg
+2020-12-28 00:45:13.487 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 150,0M x 26 48g/m2 3141pcs 1808,8kg
+2020-12-28 00:45:13.488 [main] INFO  ru.kamuzta.somafactorymanager.Order - ЗАКАЗ СОЗДАН: Order #8743 NEW 28.12.2021 00:45:13 Client: deVente Rolls:33740pcs Weight:16793,9kg
+2020-12-28 00:45:13.489 [main] INFO  ru.kamuzta.somafactorymanager.Utils - Создание массива случайных 6 роликов...
+2020-12-28 00:45:13.491 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 59,8M x 18 48g/m2 727pcs 167,0kg
+2020-12-28 00:45:13.492 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 57 x 41,3mm x 12 44g/m2 7211pcs 452,2kg
+2020-12-28 00:45:13.493 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 104,0M x 18 48g/m2 4984pcs 1990,5kg
+2020-12-28 00:45:13.494 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 138,7mm x 18 55g/m2 8296pcs 9184,1kg
+2020-12-28 00:45:13.496 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 115,6M x 26 55g/m2 9474pcs 4820,1kg
+2020-12-28 00:45:13.497 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 167,0M x 18 48g/m2 9977pcs 6399,1kg
+2020-12-28 00:45:13.499 [main] INFO  ru.kamuzta.somafactorymanager.Order - ЗАКАЗ СОЗДАН: Order #3481 NEW 28.12.2021 00:45:13 Client: SamsonOpt Rolls:40669pcs Weight:23013,0kg
+2020-12-28 00:45:13.499 [main] INFO  ru.kamuzta.somafactorymanager.Utils - Создание массива случайных 8 роликов...
+2020-12-28 00:45:13.501 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 104,7mm x 18 44g/m2 4698pcs 2821,8kg
+2020-12-28 00:45:13.503 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 57 x 84,5M x 12 48g/m2 9923pcs 2294,1kg
+2020-12-28 00:45:13.504 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 135,9mm x 26 44g/m2 9488pcs 9526,9kg
+2020-12-28 00:45:13.504 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 57 x 39,8M x 12 44g/m2 6359pcs 634,7kg
+2020-12-28 00:45:13.505 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 148,8mm x 26 44g/m2 1355pcs 1641,4kg
+2020-12-28 00:45:13.507 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 57 x 23,8mm x 12 44g/m2 972pcs 16,6kg
+2020-12-28 00:45:13.508 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 66,5M x 18 48g/m2 3406pcs 870,3kg
+2020-12-28 00:45:13.510 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 130,6M x 18 48g/m2 1595pcs 799,9kg
+2020-12-28 00:45:13.511 [main] INFO  ru.kamuzta.somafactorymanager.Order - ЗАКАЗ СОЗДАН: Order #7528 NEW 28.12.2021 00:45:13 Client: Komus Rolls:37796pcs Weight:18605,6kg
+2020-12-28 00:45:13.511 [main] INFO  ru.kamuzta.somafactorymanager.Utils - Создание массива случайных 5 роликов...
+2020-12-28 00:45:13.513 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 116,3M x 18 44g/m2 4497pcs 1841,4kg
+2020-12-28 00:45:13.514 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 57 x 74,8mm x 12 44g/m2 6487pcs 1420,3kg
+2020-12-28 00:45:13.515 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 184,3mm x 26 44g/m2 5823pcs 10936,3kg
+2020-12-28 00:45:13.517 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 57 x 85,7mm x 12 48g/m2 3089pcs 918,4kg
+2020-12-28 00:45:13.518 [main] INFO  ru.kamuzta.somafactorymanager.Roll - РОЛИК СОЗДАН: NEW Roll 80 x 169,6mm x 18 55g/m2 1637pcs 2728,5kg
+2020-12-28 00:45:13.519 [main] INFO  ru.kamuzta.somafactorymanager.Order - ЗАКАЗ СОЗДАН: Order #2478 NEW 28.12.2021 00:45:13 Client: SamsonOpt Rolls:21533pcs Weight:17845,0kg
+2020-12-28 00:45:13.520 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
+2020-12-28 00:45:13.521 [main] INFO  ru.kamuzta.somafactorymanager.Manager - ВЫГРУЖАЕМ РОЛИКИ ИЗ ЗАКАЗОВ В СТАТУСЕ NEW В ОБЩУЮ ОЧЕРЕДЬ МЕНЕДЖЕРА Andrey
+2020-12-28 00:45:13.622 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #9252 переведено из NEW в QUEUED
+2020-12-28 00:45:13.722 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #8743 переведено из NEW в QUEUED
+2020-12-28 00:45:13.822 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #3481 переведено из NEW в QUEUED
+2020-12-28 00:45:13.922 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #7528 переведено из NEW в QUEUED
+2020-12-28 00:45:14.022 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #2478 переведено из NEW в QUEUED
+2020-12-28 00:45:14.022 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
+2020-12-28 00:45:14.022 [main] WARN  ru.kamuzta.somafactorymanager.Manager - МЕНЕДЖЕР Andrey РАСПРЕДЕЛЯЕТ РОЛИКИ ИЗ СВОЕЙ ОЧЕРЕДИ ПО СВОБОДНЫМ СТАНКАМ
+2020-12-28 00:45:14.033 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из NEW в QUEUED
+2020-12-28 00:45:14.035 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #9252 57 x 42,2mm x 12 44g/m2 9433pcs 620,4kg распределен на станок #1
+2020-12-28 00:45:14.536 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #1 переведено из OFF в ON
+2020-12-28 00:45:15.037 [main] INFO  ru.kamuzta.somafactorymanager.Manager - Состояние цеха менеджера Andrey переведено из OFF в ON
+2020-12-28 00:45:15.047 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из NEW в QUEUED
+2020-12-28 00:45:15.048 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #9252 57 x 37,9M x 12 44g/m2 9087pcs 863,6kg распределен на станок #2
+2020-12-28 00:45:15.549 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #2 переведено из OFF в ON
+2020-12-28 00:45:15.559 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из NEW в QUEUED
+2020-12-28 00:45:15.560 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #9252 80 x 66,1mm x 26 48g/m2 7343pcs 1574,9kg распределен на станок #5
+2020-12-28 00:45:16.061 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #5 переведено из OFF в ON
+2020-12-28 00:45:16.071 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из NEW в QUEUED
+2020-12-28 00:45:16.073 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #9252 80 x 219,9mm x 26 48g/m2 4457pcs 12323,4kg распределен на станок #6
+2020-12-28 00:45:16.573 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #6 переведено из OFF в ON
+2020-12-28 00:45:16.584 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из NEW в QUEUED
+2020-12-28 00:45:16.586 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #9252 80 x 187,7mm x 18 44g/m2 4349pcs 8562,4kg распределен на станок #7
+2020-12-28 00:45:17.086 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #7 переведено из OFF в ON
+2020-12-28 00:45:17.096 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из NEW в QUEUED
+2020-12-28 00:45:17.097 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #9252 57 x 61,4mm x 12 48g/m2 4120pcs 618,3kg распределен на станок #3
+2020-12-28 00:45:17.598 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #3 переведено из OFF в ON
+2020-12-28 00:45:17.610 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из NEW в QUEUED
+2020-12-28 00:45:17.611 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #9252 80 x 204,6mm x 18 55g/m2 3653pcs 8886,8kg распределен на станок #8
+2020-12-28 00:45:18.112 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #8 переведено из OFF в ON
+2020-12-28 00:45:18.123 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из NEW в QUEUED
+2020-12-28 00:45:18.124 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #9252 80 x 140,2M x 18 44g/m2 2816pcs 1389,8kg распределен на станок #9
+2020-12-28 00:45:18.625 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #9 переведено из OFF в ON
+2020-12-28 00:45:18.635 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из NEW в QUEUED
+2020-12-28 00:45:18.636 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #9252 80 x 144,7mm x 26 48g/m2 218pcs 256,3kg распределен на станок #10
+2020-12-28 00:45:19.137 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #10 переведено из OFF в ON
+2020-12-28 00:45:19.147 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из NEW в QUEUED
+2020-12-28 00:45:19.148 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #8743 80 x 188,6M x 26 48g/m2 9963pcs 7213,9kg распределен на станок #10
+2020-12-28 00:45:19.158 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из NEW в QUEUED
+2020-12-28 00:45:19.159 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #8743 80 x 117,3M x 18 55g/m2 7588pcs 3916,5kg распределен на станок #9
+2020-12-28 00:45:19.170 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из NEW в QUEUED
+2020-12-28 00:45:19.171 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #8743 80 x 127,4M x 18 48g/m2 5986pcs 2928,4kg распределен на станок #8
+2020-12-28 00:45:19.181 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из NEW в QUEUED
+2020-12-28 00:45:19.182 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #8743 80 x 63,1mm x 18 48g/m2 3616pcs 767,5kg распределен на станок #7
+2020-12-28 00:45:19.208 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из NEW в QUEUED
+2020-12-28 00:45:19.209 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #8743 80 x 38,2mm x 26 55g/m2 3446pcs 158,8kg распределен на станок #6
+2020-12-28 00:45:19.221 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из NEW в QUEUED
+2020-12-28 00:45:19.222 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #8743 80 x 150,0M x 26 48g/m2 3141pcs 1808,8kg распределен на станок #5
+2020-12-28 00:45:19.233 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из NEW в QUEUED
+2020-12-28 00:45:19.235 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #3481 80 x 167,0M x 18 48g/m2 9977pcs 6399,1kg распределен на станок #6
+2020-12-28 00:45:19.245 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из NEW в QUEUED
+2020-12-28 00:45:19.246 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #3481 80 x 115,6M x 26 55g/m2 9474pcs 4820,1kg распределен на станок #7
+2020-12-28 00:45:19.257 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из NEW в QUEUED
+2020-12-28 00:45:19.271 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #3481 80 x 138,7mm x 18 55g/m2 8296pcs 9184,1kg распределен на станок #8
+2020-12-28 00:45:19.283 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из NEW в QUEUED
+2020-12-28 00:45:19.284 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #3481 57 x 41,3mm x 12 44g/m2 7211pcs 452,2kg распределен на станок #4
+2020-12-28 00:45:19.786 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #4 переведено из OFF в ON
+2020-12-28 00:45:19.796 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из NEW в QUEUED
+2020-12-28 00:45:19.797 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #3481 80 x 104,0M x 18 48g/m2 4984pcs 1990,5kg распределен на станок #10
+2020-12-28 00:45:19.808 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из NEW в QUEUED
+2020-12-28 00:45:19.809 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #3481 80 x 59,8M x 18 48g/m2 727pcs 167,0kg распределен на станок #9
+2020-12-28 00:45:19.820 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из NEW в QUEUED
+2020-12-28 00:45:19.821 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #7528 57 x 84,5M x 12 48g/m2 9923pcs 2294,1kg распределен на станок #3
+2020-12-28 00:45:19.832 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из NEW в QUEUED
+2020-12-28 00:45:19.833 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #7528 80 x 135,9mm x 26 44g/m2 9488pcs 9526,9kg распределен на станок #5
+2020-12-28 00:45:19.843 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из NEW в QUEUED
+2020-12-28 00:45:19.844 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #7528 57 x 39,8M x 12 44g/m2 6359pcs 634,7kg распределен на станок #4
+2020-12-28 00:45:19.855 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из NEW в QUEUED
+2020-12-28 00:45:19.856 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #7528 80 x 104,7mm x 18 44g/m2 4698pcs 2821,8kg распределен на станок #9
+2020-12-28 00:45:19.866 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из NEW в QUEUED
+2020-12-28 00:45:19.867 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #7528 80 x 66,5M x 18 48g/m2 3406pcs 870,3kg распределен на станок #10
+2020-12-28 00:45:19.878 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из NEW в QUEUED
+2020-12-28 00:45:19.879 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #7528 80 x 130,6M x 18 48g/m2 1595pcs 799,9kg распределен на станок #9
+2020-12-28 00:45:19.889 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из NEW в QUEUED
+2020-12-28 00:45:19.890 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #7528 80 x 148,8mm x 26 44g/m2 1355pcs 1641,4kg распределен на станок #9
+2020-12-28 00:45:19.901 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из NEW в QUEUED
+2020-12-28 00:45:19.902 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #7528 57 x 23,8mm x 12 44g/m2 972pcs 16,6kg распределен на станок #2
+2020-12-28 00:45:19.912 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из NEW в QUEUED
+2020-12-28 00:45:19.913 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #2478 57 x 74,8mm x 12 44g/m2 6487pcs 1420,3kg распределен на станок #1
+2020-12-28 00:45:19.924 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из NEW в QUEUED
+2020-12-28 00:45:19.925 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #2478 80 x 184,3mm x 26 44g/m2 5823pcs 10936,3kg распределен на станок #7
+2020-12-28 00:45:19.935 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из NEW в QUEUED
+2020-12-28 00:45:19.936 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #2478 80 x 116,3M x 18 44g/m2 4497pcs 1841,4kg распределен на станок #6
+2020-12-28 00:45:19.946 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из NEW в QUEUED
+2020-12-28 00:45:19.947 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #2478 57 x 85,7mm x 12 48g/m2 3089pcs 918,4kg распределен на станок #2
+2020-12-28 00:45:19.958 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из NEW в QUEUED
+2020-12-28 00:45:19.959 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик QUEUED Roll from Order #2478 80 x 169,6mm x 18 55g/m2 1637pcs 2728,5kg распределен на станок #8
+2020-12-28 00:45:19.959 [main] WARN  ru.kamuzta.somafactorymanager.Manager - НЕВОЗМОЖНО РАСПРЕДЕЛИТЬ РОЛИКИ. БОЛЬШЕ НЕТ РОЛИКОВ В ОЧЕРЕДИ У МЕНЕДЖЕРА Andrey
+2020-12-28 00:45:19.959 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
+2020-12-28 00:45:19.969 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из QUEUED в INPROGRESS
+2020-12-28 00:45:20.069 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #9252 переведено из QUEUED в INPROGRESS
+2020-12-28 00:45:29.167 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:45:29.167 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #9252 произведен на станке #2
+2020-12-28 00:45:29.178 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из QUEUED в INPROGRESS
+2020-12-28 00:45:29.278 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #7528 переведено из QUEUED в INPROGRESS
+2020-12-28 00:45:30.260 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:45:30.260 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #7528 произведен на станке #2
+2020-12-28 00:45:31.261 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC44 на NTC48
+2020-12-28 00:45:31.272 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из QUEUED в INPROGRESS
+2020-12-28 00:45:31.372 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #2478 переведено из QUEUED в INPROGRESS
+2020-12-28 00:45:34.471 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:45:34.471 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #2478 произведен на станке #2
+2020-12-28 00:45:34.971 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #2 переведено из ON в OFF
+2020-12-28 00:45:35.971 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC48 на NTC44
+2020-12-28 00:45:35.982 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из QUEUED в INPROGRESS
+2020-12-28 00:45:36.082 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #3481 переведено из QUEUED в INPROGRESS
+2020-12-28 00:45:43.305 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:45:43.305 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #3481 произведен на станке #4
+2020-12-28 00:45:43.316 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из QUEUED в INPROGRESS
+2020-12-28 00:45:49.685 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:45:49.686 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #7528 произведен на станке #4
+2020-12-28 00:45:50.187 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #4 переведено из ON в OFF
+2020-12-28 00:45:51.202 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC44 на NTC48
+2020-12-28 00:45:51.216 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из QUEUED в INPROGRESS
+2020-12-28 00:45:55.348 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:45:55.349 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #9252 произведен на станке #3
+2020-12-28 00:45:55.359 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:05.293 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:05.294 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #7528 произведен на станке #3
+2020-12-28 00:46:05.794 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #3 переведено из ON в OFF
+2020-12-28 00:46:05.805 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:15.249 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:15.249 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #9252 произведен на станке #1
+2020-12-28 00:46:15.261 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:21.760 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:21.760 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #2478 произведен на станке #1
+2020-12-28 00:46:22.262 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #1 переведено из ON в OFF
+2020-12-28 00:46:23.263 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC58 на NTC48
+2020-12-28 00:46:23.273 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:23.503 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:23.504 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #9252 произведен на станке #10
+2020-12-28 00:46:23.514 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:23.614 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #8743 переведено из QUEUED в INPROGRESS
+2020-12-28 00:46:33.588 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:33.588 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #8743 произведен на станке #10
+2020-12-28 00:46:33.598 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:38.595 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:38.596 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #3481 произведен на станке #10
+2020-12-28 00:46:38.606 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:42.068 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:42.079 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #7528 произведен на станке #10
+2020-12-28 00:46:42.581 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #10 переведено из ON в OFF
+2020-12-28 00:46:43.582 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC55 на NTC44
+2020-12-28 00:46:43.593 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:46.420 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:46.420 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #9252 произведен на станке #9
+2020-12-28 00:46:47.420 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC44 на NTC55
+2020-12-28 00:46:47.430 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:55.028 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:55.028 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #8743 произведен на станке #9
+2020-12-28 00:46:56.029 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC55 на NTC48
+2020-12-28 00:46:56.039 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из QUEUED в INPROGRESS
+2020-12-28 00:46:56.777 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:46:56.777 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #3481 произведен на станке #9
+2020-12-28 00:46:57.778 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC48 на NTC44
+2020-12-28 00:46:57.788 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:02.497 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:02.497 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #7528 произведен на станке #9
+2020-12-28 00:47:03.499 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC44 на NTC48
+2020-12-28 00:47:03.509 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:05.114 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:05.114 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #7528 произведен на станке #9
+2020-12-28 00:47:06.115 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC48 на NTC44
+2020-12-28 00:47:06.125 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:07.491 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:07.491 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #7528 произведен на станке #9
+2020-12-28 00:47:07.991 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #9 переведено из ON в OFF
+2020-12-28 00:47:08.991 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC48 на NTC55
+2020-12-28 00:47:09.001 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:12.664 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:12.664 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #9252 произведен на станке #8
+2020-12-28 00:47:13.666 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC55 на NTC48
+2020-12-28 00:47:13.676 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:19.672 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:19.673 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #8743 произведен на станке #8
+2020-12-28 00:47:20.674 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC48 на NTC55
+2020-12-28 00:47:20.684 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:28.991 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:28.991 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #3481 произведен на станке #8
+2020-12-28 00:47:29.001 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:30.649 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:30.649 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #2478 произведен на станке #8
+2020-12-28 00:47:31.151 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #8 переведено из ON в OFF
+2020-12-28 00:47:32.152 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC44 на NTC48
+2020-12-28 00:47:32.162 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:39.515 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:39.515 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #9252 произведен на станке #5
+2020-12-28 00:47:39.526 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:42.679 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:42.680 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #8743 произведен на станке #5
+2020-12-28 00:47:43.680 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC48 на NTC44
+2020-12-28 00:47:43.690 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:53.188 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #7528 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:53.289 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #7528 переведено из INPROGRESS в COMPLETED
+2020-12-28 00:47:53.289 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #7528 произведен на станке #5
+2020-12-28 00:47:53.791 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #5 переведено из ON в OFF
+2020-12-28 00:47:54.791 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC44 на NTC48
+2020-12-28 00:47:54.801 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из QUEUED в INPROGRESS
+2020-12-28 00:47:59.268 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:47:59.268 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #9252 произведен на станке #6
+2020-12-28 00:48:00.268 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC48 на NTC55
+2020-12-28 00:48:00.278 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из QUEUED в INPROGRESS
+2020-12-28 00:48:03.734 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:48:03.734 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #8743 произведен на станке #6
+2020-12-28 00:48:04.735 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC55 на NTC48
+2020-12-28 00:48:04.745 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из QUEUED в INPROGRESS
+2020-12-28 00:48:14.732 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:48:14.732 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #3481 произведен на станке #6
+2020-12-28 00:48:15.732 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC48 на NTC44
+2020-12-28 00:48:15.742 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из QUEUED в INPROGRESS
+2020-12-28 00:48:20.292 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:48:20.293 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #2478 произведен на станке #6
+2020-12-28 00:48:20.798 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #6 переведено из ON в OFF
+2020-12-28 00:48:20.845 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из QUEUED в INPROGRESS
+2020-12-28 00:48:25.204 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #9252 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:48:25.304 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #9252 переведено из INPROGRESS в COMPLETED
+2020-12-28 00:48:25.304 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #9252 произведен на станке #7
+2020-12-28 00:48:26.304 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC44 на NTC48
+2020-12-28 00:48:26.314 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из QUEUED в INPROGRESS
+2020-12-28 00:48:29.948 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #8743 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:48:30.048 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #8743 переведено из INPROGRESS в COMPLETED
+2020-12-28 00:48:30.048 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #8743 произведен на станке #7
+2020-12-28 00:48:31.048 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC48 на NTC55
+2020-12-28 00:48:31.059 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из QUEUED в INPROGRESS
+2020-12-28 00:48:40.548 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #3481 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:48:40.657 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #3481 переведено из INPROGRESS в COMPLETED
+2020-12-28 00:48:40.658 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #3481 произведен на станке #7
+2020-12-28 00:48:41.659 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Произведена смена сырья с NTC55 на NTC44
+2020-12-28 00:48:41.669 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из QUEUED в INPROGRESS
+2020-12-28 00:48:47.566 [main] INFO  ru.kamuzta.somafactorymanager.Roll - Статус ролика из заказа #2478 переведен из INPROGRESS в COMPLETED
+2020-12-28 00:48:47.693 [main] INFO  ru.kamuzta.somafactorymanager.Order - Состояние заказа #2478 переведено из INPROGRESS в COMPLETED
+2020-12-28 00:48:47.693 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Ролик из заказа #2478 произведен на станке #7
+2020-12-28 00:48:48.194 [main] INFO  ru.kamuzta.somafactorymanager.Machine - Состояние станка #7 переведено из ON в OFF
+2020-12-28 00:48:48.695 [main] INFO  ru.kamuzta.somafactorymanager.Manager - Состояние цеха менеджера Andrey переведено из ON в OFF
+2020-12-28 00:48:48.695 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
+2020-12-28 00:48:48.696 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #2 OFF Width:57 Paper: NTC48 Capacity(Free/InQueue/Full): 15000 / 0 / 15000
+2020-12-28 00:48:48.697 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #4 OFF Width:57 Paper: NTC44 Capacity(Free/InQueue/Full): 15000 / 0 / 15000
+2020-12-28 00:48:48.697 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #3 OFF Width:57 Paper: NTC48 Capacity(Free/InQueue/Full): 15000 / 0 / 15000
+2020-12-28 00:48:48.698 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #1 OFF Width:57 Paper: NTC44 Capacity(Free/InQueue/Full): 15000 / 0 / 15000
+2020-12-28 00:48:48.699 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #10 OFF Width:80 Paper: NTC48 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:48:48.699 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #9 OFF Width:80 Paper: NTC44 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:48:48.700 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #8 OFF Width:80 Paper: NTC55 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:48:48.701 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #5 OFF Width:80 Paper: NTC44 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:48:48.702 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #6 OFF Width:80 Paper: NTC44 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:48:48.703 [main] INFO  ru.kamuzta.somafactorymanager.Main - Machine #7 OFF Width:80 Paper: NTC44 Capacity(Free/InQueue/Full): 12000 / 0 / 12000
+2020-12-28 00:48:48.703 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
+2020-12-28 00:48:48.704 [main] INFO  ru.kamuzta.somafactorymanager.Main - Order #9252 COMPLETED 28.12.2021 00:45:13 Client: Komus Rolls:45476pcs Weight:35095,8kg
+2020-12-28 00:48:48.706 [main] INFO  ru.kamuzta.somafactorymanager.Main - Order #8743 COMPLETED 28.12.2021 00:45:13 Client: deVente Rolls:33740pcs Weight:16793,9kg
+2020-12-28 00:48:48.707 [main] INFO  ru.kamuzta.somafactorymanager.Main - Order #3481 COMPLETED 28.12.2021 00:45:13 Client: SamsonOpt Rolls:40669pcs Weight:23013,0kg
+2020-12-28 00:48:48.710 [main] INFO  ru.kamuzta.somafactorymanager.Main - Order #7528 COMPLETED 28.12.2021 00:45:13 Client: Komus Rolls:37796pcs Weight:18605,6kg
+2020-12-28 00:48:48.712 [main] INFO  ru.kamuzta.somafactorymanager.Main - Order #2478 COMPLETED 28.12.2021 00:45:13 Client: SamsonOpt Rolls:21533pcs Weight:17845,0kg
+2020-12-28 00:48:48.712 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
+2020-12-28 00:48:48.712 [main] INFO  ru.kamuzta.somafactorymanager.Main - Total Count of Rolls produced: 179214
+
+2020-12-28 00:48:48.713 [main] INFO  ru.kamuzta.somafactorymanager.Main - Total Weight of Rolls produced: 111353.29
+
+2020-12-28 00:48:48.713 [main] INFO  ru.kamuzta.somafactorymanager.Main - ----------------------------
+
